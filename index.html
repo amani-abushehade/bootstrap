@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+  <aside>
+      <div class="container-fluid " style="position: relative;">
+
+        <div class="d-flex flex-column justify-content-between ms-auto" style="position: fixed;z-index: 110;top: 200px;right:20px;">
+          <div class="icon1 "><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+          <div class="icon1 "><a href="#"><i class="fab fa-whatsapp-square"></i></a></div>
+          <div class="icon1 "><a href="#"><i class="fab fa-twitter-square"></i></a></div>
+          <div class="icon1 "><a href="#"><i class="fab fa-linkedin"></i></a></div>
+          <div class="icon1 "><a href="#"><i class="fab fa-instagram-square"></i></a></div>
+        </div>
+    </div></aside>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <img src="image/شعار.jpg" class="shadow-lg     mx-3 " alt="" style="border-radius: 50%;">
+          <a class="navbar-brand mx-3 auhv " href="#">PALESTINE</a>
+          <div class="line mx-3"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-info auhv2" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-info auhv2" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <button class="nav-link dropdown-toggle text-info border-2 border-info rounded-3 auhv2" href="#" id="nav-Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trips
+                </button>
+                <ul class="dropdown-menu   " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-info" href="#">JERUSALEM</a></li>
+                  <li><a class="dropdown-item text-info" href="#">NABLUS</a></li>
+                  <li><hr class="dropdown-divider text-info"></li>
+                  <li><a class="dropdown-item text-info" href="#">TIBERIAS</a></li>
+                  <li><a class="dropdown-item text-info" href="#">TULKARM</a></li>
+                  <li><a class="dropdown-item text-info" href="#">JAFFA</a></li>
+                  <li><a class="dropdown-item text-info" href="#">MORE...</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled  text-info" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 border-info " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-info text-white" type="submit">Search</button>
+              <button class="navbtn btn bg-info text-white mx-3" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-info ">
+              <h5 class="modal-title text-light shadow-lg font-weight-bolder" id="staticBackdropLabel">Login</h5>
+              <button type="button" class="btn btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="m-3">
+                  <label class="form-label text-info">Email address</label>
+                  <input type="email" class="form-control text-info border-3 border-info rounded-2" aria-describedby="emailHelp">
+                  <p class="form-text text-secondary">We'll never share your email with anyone else.</p>
+                </div>
+                <div class="m-3">
+                  <label class="form-label text-info">Password</label>
+                  <input type="password" class="form-control text-info border-3 border-info rounded-2">
+                </div>
+                <div class="m-3 form-check">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input bg-info" type="checkbox" role="switch" checked="">
+                    <label class="form-check-label text-info" for="flexSwitchCheckChecked">Remmember me</label>
+                  </div>
+                </div> 
+  
+              </form>
+              <div class="modal-footer d-flex  justify-content-between">
+                <button type="submit" class="btn btn-info text-light">Login</button>
+                <button type="button" class="btn btn-info text-light" data-bs-dismiss="modal">Close</button>
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+      </div>
+    <br><br><br>
+      <div id="carouselExampleIndicators" class="carousel slide mt-2 h-25" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active  z">
+            <img src="image/القدس .jpg" class="d-block w-100 img" alt="...">
+            <div class="carousel-caption">
+              <h1>JERUSALEM</h1>
+              <p>Very beautiful city!</p>
+              <a href="#" class="btn btn-info text-white text-shadow" target="_blank">Visit Us</a>
+            </div>
+          </div><!-- img -->
+          <div class="carousel-item">
+            <img src="image/طبريا.jpg" class="d-block w-100 img" alt="...">
+            <div class="carousel-caption">
+              <h1>TIBERIAS</h1>
+              <p>The lake is so amazing!</p>
+              <a href="#" class="btn btn-info text-white text-shadow" target="_blank">Visit Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/بيت لحم.jpg" class="d-block w-100 img" alt="...">
+            <div class="carousel-caption">
+              <h1>BETHLEHEM</h1>
+              <p>It has lovely antiques and memorials</p>
+              <a href="#" class="btn btn-info text-white text-shadow" target="_blank">Visit Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/يافا.webp" class="d-block w-100 img" alt="...">
+            <div class="carousel-caption">
+              <h1>JAFFA</h1>
+              <p>The smell of oranges in the city is wonderful</p>
+              <a href="#" class="btn btn-info text-white text-shadow" target="_blank">Visit Us</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="section2">
+        <div class="card p-2 text-white " style="background-color: rgb(157, 227, 240);">
+          <div class="card-body">
+            <h5 class="card-title caard">WELCOME</h5>
+            <p class="card-text">Palestinian cities are distinguished by their diverse climate and terrain, which makes them one of the distinctive regions. It includes the city of Nablus, Tulkullam, Jerusalem, and Bethlehem.</p>
+            <a href="#" class="btn text-info bg-light" style="width:140px; height: 50px; font-size: 22px; border-radius: 8px;">Learn more</a>
+          </div>
+        </div>
+        <hr>
+        <div class="mx-auto my-3 p-5  text-white  " style="background-color:rgb(43, 147, 165); text-align: center ; border-radius: 7px;">
+          <h1>Popular destinations in Palestine</h1>
+        </div>
+        <br>
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button shadow-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                JERUSALEM
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Jerusalem is considered a holy city to which visitors from different parts of the world come for religious purposes. It includes the Al-Aqsa Mosque, the Dome of the Rock, the Church of the Holy Sepulcher, the Roman Chapel, the Church of Mary Magdalene, the Buraq Wall and many others. It includes many ancient houses, schools, monasteries, avenues, and other important archaeological and historical remains, and it is one of the oldest and holiest cities in the world.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button  shadow-lg collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                NABLUS
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Nablus is a Palestinian city located in the northern West Bank. The city contains a number of entertainment and archaeological places that can be visited. One of the most famous recreational places is the Wadi Al-Badhan area, which is a beautiful natural area and a suitable place for recreation and hiking for families and individuals. Sama Nablus, a 50-acre park located at the top of Mount Ebal, provides many recreational facilities for visitors. For lovers of historical tourism, the city contains many archaeological monuments, such as the Roman cemetery, the hippodrome, Jacob’s Well, as well as the amphitheater and theatre. It is necessary to visit Sebastia, which is considered an important archaeological treasure and is located 12 km from the city. The city also contains a number of parks and gardens, including Gamal Abdel Nasser Park, which belongs to the city’s municipality, and which provides the most beautiful and quiet sessions for everyone.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button   shadow-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                JAFFA
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">The city of Jaffa is located on the coast of the Mediterranean Sea. It enjoys a strategic geographical location that makes it one of the most beautiful cities on the coast. Its name means beauty or beautiful view. It is the ideal city for nature lovers and practicing water activities as well. Its beaches are considered among the most beautiful beaches in the world, and it is fully equipped for tourism. It is also spread over botanical and public gardens, and in addition to the natural ones, it includes the largest commercial centers in which there are various international brands, in addition to popular restaurants and international chains. It is worth noting that the city occupied the crossroads of transportation routes between the three continents of Asia, Europe and Africa, and its port is the oldest. Ports in the world.</div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </section>
+      <section class="translate">
+        <div class="mx-auto  p-2 text-white  " style="background-color:rgb(43, 147, 165); text-align: center ; border-radius: 7px;">
+          <h1>Translate From Arabic To English</h1>
+        </div>
+        <div class="card p-3  text-white shadow-lg " style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(157, 227, 240);">
+          <div class="card-body">
+            <h4 class="card-title ">Write and Translate <a  href="https://translate.google.com.eg/?hl=en" target="_blank" rel="noopener" style="text-decoration: none; color: black;">Press Here</a></h4>
+            <button class="btn btn-light text-info border border-2  shadow-lg "  id="btnCopy" style="font-size: 18px;">
+              Copy
+            </button>
+            <br>
+            <textarea id="sentence" class="form-control mx-auto mt-3" rows="4" placeholder="translate:" name="text"></textarea>
+          </div>
+        </div>
+          <hr>
+          <div class="mx-auto  p-2 text-white  " style="background-color:rgb(43, 147, 165); text-align: center ; border-radius: 7px;">
+            <h1>Translate From Arabic To  Frensh</h1>
+          </div>
+          <div class="card p-3  text-white shadow-lg " style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(157, 227, 240);">
+            <div class="card-body">
+              <h4 class="card-title ">Write and Translate <a  href="https://translate.google.com.eg/?hl=en&sl=ar&tl=fr&op=translate" target="_blank" rel="noopener" style="text-decoration: none; color: black;">Press Here</a></h4>
+              <button class="btn btn-light text-info border border-2  shadow-lg "  id="btnCopy" style="font-size: 18px;">
+                Copy
+              </button>
+              <br>
+              <textarea id="sentence" class="form-control mx-auto mt-3" rows="4" placeholder="translate:" name="text"></textarea>
+            </div>
+          </div>
+            <hr>
+            <div class="mx-auto  p-2 text-white  " style="background-color:rgb(43, 147, 165); text-align: center ; border-radius: 7px;">
+              <h1>Translate From Arabic To German</h1>
+            </div>
+            <div class="card p-3  text-white shadow-lg " style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(157, 227, 240);">
+              <div class="card-body">
+                <h4 class="card-title ">Write and Translate <a  href="https://translate.google.com.eg/?hl=en&sl=ar&tl=de&op=translate" target="_blank" rel="noopener" style="text-decoration: none; color: black;">Press Here</a></h4>
+                <button class="btn btn-light text-info border border-2  shadow-lg "  id="btnCopy" style="font-size: 18px;">
+                  Copy
+                </button>
+                <br>
+                <textarea id="sentence" class="form-control mx-auto mt-3" rows="4" placeholder="translate:" name="text"></textarea>
+              </div>
+            </div>
+              <hr>
+
+          
+          
+        </section>
+        <div class="imgfixcd">
+        </div>
+        <div class="mx-auto  p-2 text-white  " style="background-color:rgb(43, 147, 165); text-align: center ; border-radius: 7px;">
+         <div class="titlee"> <h1>POPULAR DESTINATIONS IN PALESTINE </h1></div>
+        </div>
+        <section class="container-fluid">
+          <div class="row justify-content-around pb-5">
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow Trips">
+              <input type="image" src="image/JERUSALEM.jpeg" class="card-img-top shadow w-100" alt=" ...">
+              <div class="card-body">
+                <h5 class="card-title">JERUSALEM</h5>
+                <p class="card-text">Capital of Palestine</p>
+                <button class="btn btn-info text-white  d-block">Know More</button>
+              </div>
+            </div>
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow Trips">
+              <input type="image" src="image/حيفا.jpeg" class="card-img-top shadow w-100" alt=" ...">
+              <div class="card-body">
+                <h5 class="card-title">HAIFA</h5>
+                <p class="card-text">Al-Baha'in Garden</p>
+                <button class="btn btn-info text-white d-block">Know More</button>
+              </div>
+            </div>
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow Trips">
+              <input type="image" src="image/الخليل.jpeg" class="card-img-top shadow w-100" alt=" ...">
+              <div class="card-body">
+                <h5 class="card-title">HEBRON</h5>
+                <p class="card-text">The Ibrahimi Mosque</p>
+                <button class="btn btn-info text-white d-block">Know More</button>
+              </div>
+            </div>
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow Trips">
+              <input type="image" src="image/اريحا.jpeg" class="card-img-top shadow w-100" alt=" ...">
+              <div class="card-body">
+                <h5 class="card-title">JERICHO</h5>
+                <p class="card-text">The shrine of the Prophet Moses</p>
+                <button class="btn btn-info text-white d-block">Know More</button>
+              </div>
+            </div>
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow Trips">
+              <input type="image" src="image/نابلسس.jpeg" class="card-img-top shadow w-100" alt=" ...">
+              <div class="card-body">
+                <h5 class="card-title">NABLUS</h5>
+                <p class="card-text">Old town</p>
+                <button class="btn btn-info text-white d-block">Know More</button>
+              </div>
+            </div>
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow Trips">
+              <input type="image" src="image/عكا.jpeg" class="card-img-top shadow w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AKKA</h5>
+                <p class="card-text">Wall of Akka</p>
+                <button class="btn btn-info text-white d-block">Know More</button>
+              </div>
+            </div>
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow Trips">
+              <input type="image" src="image/طولكرم.jpeg" class="card-img-top shadow w-100" alt=" ...">
+              <div class="card-body">
+                <h5 class="card-title">TULKULLAM</h5>
+                <p class="card-text">Mount Al-Mantar and the forests</p>
+                <button class="btn btn-info text-white d-block">Know More</button>
+              </div>
+            </div>
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow Trips">
+              <input type="image" src="image/طبرياا.jpeg" class="card-img-top shadow w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">TIBERIAS</h5>
+                <p class="card-text">The lake and Hama-Tiberias National Park</p>
+                <button class="btn btn-info text-white d-block">Know More</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="imgfixcd1">
+        </div>
+        <hr>
+        <div class="mx-auto  p-4 text-white  " style="background-color:rgb(157, 227, 240); text-align: center ; border-radius: 7px;">
+          <div class="titlee"> <h1>THANKS FOR </h1></div>
+         </div>
+         <br><br><br>
+       <section class="container" >
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card card1 card-hover text-white card-has-bg click-col thanks" style="background-image:url('image/fkj.jpeg');">
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+
+                  <h4 class="card-title mt-0 "><a class="text-white" herf="#" style="text-decoration: none;">All thanks and appreciation</a></h4>
+                  <small><i class="far fa-clock"></i> 1-dec-2023</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img class="mr-3 rounded-circle" src="image/fkj.jpeg" alt="..." style="width:100px">
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">Eng Amani</h6>
+                      <small>Computer Engineering</small>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card card1 card-hover text-white card-has-bg click-col thanks" style="background-image:url('image/fkj.jpeg');">
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+
+                  <h4 class="card-title mt-0 "><a class="text-white" herf="#" style="text-decoration: none;">All thanks and appreciation</a></h4>
+                  <small><i class="far fa-clock"></i> 1-dec-2023</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img class="mr-3 rounded-circle" src="image/fkj.jpeg" alt="..." style="width:100px">
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">Eng Amani</h6>
+                      <small>Computer Engineering</small>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card card1 card-hover text-white card-has-bg click-col thanks" style="background-image:url('image/fkj.jpeg');">
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+
+                  <h4 class="card-title mt-0 "><a class="text-white" herf="#" style="text-decoration: none;">All thanks and appreciation</a></h4>
+                  <small><i class="far fa-clock"></i> 1-dec-2023</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img class="mr-3 rounded-circle" src="image/fkj.jpeg" alt="..." style="width:100px">
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">Eng Amani</h6>
+                      <small>Computer Engineering</small>
+                    </div>
+                  </div>
+                </div> 
+              </div> 
+            </div> 
+          </div>
+        </div>
+       </section>
+       <br><br><br><br><hr>
+       <section class="container light  section4"> <!-- postcards news -->
+        <div class="container py-2">
+          <div class="h1 text-center  title titlee" id="pageHeaderTitle" >PALESTINE NEWS</div>
+  
+          <article class="postcard d-flex light blue"> <!-- 1st card -->
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="image/روابي.jpeg" alt="...">
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+              <div class="postcard__subtitle small">
+                <time >
+                  <i class="fas fa-calendar-alt mr-2"></i>21-dec-2023
+                </time>
+              </div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+                asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo
+                accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo
+                iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                <li class="tag__item"><i class="fas fa-clock mr-2"></i>1.3hour.</li>
+                <li class="tag__item play blue">
+                  <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                </li>
+              </ul>
+            </div>
+          </article> <!-- /1st card -->
+          <article class="postcard d-flex light red"> <!-- 2nd card -->
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="image/المسجد الابراهيمس.jpeg" alt="...">
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+              <div class="postcard__subtitle small">
+                <time >
+                  <i class="fas fa-calendar-alt mr-2"></i>21-dec-2023
+                </time>
+              </div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+                asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo
+                accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo
+                iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                <li class="tag__item"><i class="fas fa-clock mr-2"></i>35 mins.</li>
+                <li class="tag__item play red">
+                  <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                </li>
+              </ul>
+            </div>
+          </article> <!-- /2nd card -->
+          <article class="postcard d-flex  light green"> <!-- 3rd card -->
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="image/سوق القدس.jpeg" alt="...">
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+              <div class="postcard__subtitle small">
+                <time >
+                  <i class="fas fa-calendar-alt mr-2"></i>21-dec-2023
+                </time>
+              </div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+                asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo
+                accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo
+                iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                <li class="tag__item"><i class="fas fa-clock mr-2"></i>48 mins.</li>
+                <li class="tag__item play green">
+                  <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                </li>
+              </ul>
+            </div>
+          </article> <!-- /3rd card -->
+          <article class="postcard d-flex light yellow "> <!-- 4th card -->
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="image/شاطئ يافا.jpeg" alt="...">
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+              <div class="postcard__subtitle small">
+                <time>
+                  <i class="fas fa-calendar-alt mr-2"></i>21-dec-2023
+                </time>
+              </div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+                asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo
+                accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo
+                iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                <li class="tag__item"><i class="fas fa-clock mr-2"></i>67 mins.</li>
+                <li class="tag__item play yellow">
+                  <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                </li>
+              </ul>
+            </div>
+          </article> <!-- /4th card -->
+        </div> <!-- /container -->
+      </section>
+
+        <div class="titlee" style="text-align: center; "> <h1>JOIN US </h1></div>
+        <div class="container-fluid  section4">
+          <div class="row justify-content-center">
+            <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+              <div class="card-body text-info d-flex flex-column text-center">
+                <h3 class="card-title mb-4">Subscribe Now
+                </h3>
+                <input class="logoicon mb-2 rounded-4" style="align-self: center; width: 170px;height: 170px;" src="image/تويتر.jpeg" type="image" alt="icon">
+                <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+              </div>
+            </div>
+            <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+              <div class="card-body text-info d-flex flex-column text-center">
+                <h3 class="card-title mb-4">Follow
+                </h3>
+                <input class="logoicon mb-2 rounded-4" style="align-self: center; width: 170px;height: 170px;" src="image/واتس.jpeg" type="image" alt="icon">
+                <a href="" target="_blank" class="card-link h4 text-info ">Go to link</a>
+              </div>
+            </div>
+            <div class="card m-3 bg-light " style="width: 250px;  box-shadow: -5px -5px 20px 10px rgb(201, 198, 241)">
+              <div class="card-body text-info d-flex flex-column text-center">
+                <h3 class="card-title mb-4">Like the page
+                </h3>
+                <input class="logoicon mb-2 rounded-4" style="align-self: center; width: 170px;height: 170px;" src="image/يوتيوب.jpeg" type="image" alt="icon">
+                <a href="" target="_blank" class="card-link h4 text-info ">Go to link</a>
+              </div>
+            </div>
+            <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241)">
+              <div class="card-body text-info d-flex flex-column text-center">
+                <h3 class="card-title mb-4">watch vedios
+                </h3>
+                <input class="logoicon mb-2 rounded-4" style="align-self: center; width: 170px;height: 170px;" src="image/انستا.jpeg" type="image" alt="icon">
+                <a href="" target="_blank" class="card-link h4 text-info ">Go to link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class=" text-light pb-5 bg-info section4">
+          <div class="container-fluid">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <hr class=" border-top border-3 border-light my-3">
+                <h5><img src="image/شعار.jpg" alt="good pic" class="logoicon rounded-circle">&nbsp; Good Company</h5>
+                <hr class="border-top border-3 border-light my-3">
+                <address>
+                  <p>Tel : 000-000-000</p>
+                  <p>Address : PALESTINE</p>
+                  <p>Fax : 000-000-000</p>
+                </address>
+              </div>
+              <div class="col-md-4">
+                <hr class="border-top border-3 border-light my-3">
+                <h5><img src="image/شعار.jpg" alt="good pic" class="logoicon rounded-circle ">&nbsp; Important links</h5>
+                <hr class="border-top border-3 border-light my-3">
+                <p><a href="#">Visit Us</a></p>
+                <p><a href="#">Take alook</a></p>
+                <p><a href="#">Your health is more important</a></p>
+              </div>
+              <div class="col-md-4">
+                <hr class="border-top border-3 border-light my-3">
+                <h5><img src="image/شعار.jpg" alt="good pic" class="logoicon rounded-circle">&nbsp; Vision</h5>
+                <hr class="border-top border-3 border-light my-3">
+                <p>Serveices for all </p>
+                <p>Provide best serveices</p>
+                <p>you will be better than before</p>
+              </div>
+            </div>
+          </div>
+          <hr class="border-top border-3 border-light my-3">
+          <span class="text-center d-block title titlee">Copyright © 2020 Amani Abushehade Good Company </span>
+          <hr class="border-top border-3 border-light my-3">
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
